@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <!-- 头部 -->
-    <HeaderVue/>
+    <keep-alive>
+      <HeaderVue/>
+    </keep-alive>
     <!-- body -->
     <router-view/>
     <!-- 尾部 -->

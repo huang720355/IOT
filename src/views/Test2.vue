@@ -16,7 +16,7 @@ export default {
   methods: {
     goTest1() {
       this.$router.push({
-        name: "Test",
+        name: "IndexMain",
       });
     },
     clickM() {
