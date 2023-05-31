@@ -31,9 +31,25 @@ const routes = [
         path: '/getInformation',
         name: 'GetInformation',
         meta: {
-          title: '登陆'
+          title: '选卡'
         },
         component: () => import(/* webpackChunkName: "Header" */ '../views/selfPaymentPage/GetInformation.vue')
+      },
+      {
+        path: '/cardDetail',
+        name: 'CardDetail',
+        meta: {
+          title: '卡详情'
+        },
+        component: () => import(/* webpackChunkName: "Header" */ '../views/selfPaymentPage/CardDetail.vue')
+      },
+      {
+        path: '/expenseDetails',
+        name: 'ExpenseDetails',
+        meta: {
+          title: '费用明细'
+        },
+        component: () => import(/* webpackChunkName: "Header" */ '../views/selfPaymentPage/ExpenseDetails.vue')
       },
 
 
